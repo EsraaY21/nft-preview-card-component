@@ -1,0 +1,111 @@
+@import url('reset.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    /* Primary Colors */
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+
+    /* Neutral Colors */
+    --very-dark-blue-main-bg: hsl(217, 54%, 11%);
+    --very-dark-blue-card-bg: hsl(216, 50%, 16%);
+    --very-dark-blue-line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+
+    /* Typography */
+    --font-size-paragraph: 18px;
+}
+
+/* Example usage */
+body {
+    background-color: var(--very-dark-blue-main-bg);
+    color: var(--white);
+    display: grid;
+    place-content: center;
+    height: 100vh;
+    font-family: "Outfit", system-ui;
+    color: var(--soft-blue);
+    font-size: 16px;
+
+
+}
+
+.card {
+    border-radius: 15px;
+    width: 350px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    background-color:var(--very-dark-blue-card-bg) ;
+}
+
+img.main{
+    border-radius: 8px;
+}
+
+h1
+{
+    margin-bottom: 16px;
+    font-weight: 600;
+    font-size: 22px;
+    color: white;
+
+}
+
+.title p
+{
+    font-size: var(--font-size-paragraph);
+
+}
+
+.numbers
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.numbers .flex
+{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.numbers img
+{
+    height: 18px;
+}
+
+.numbers .value
+{
+    color: var(--cyan);
+}
+
+
+.footer
+{
+    border-top: 1px solid var(--very-dark-blue-line);
+    padding-top: 16px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.footer img
+{
+    width: 33px;
+    height: 33px;
+    border-radius: 100%;
+    border: 1px solid white;
+}
+
+.footer span.author
+{
+    color: white;
+    
+}
+
+
+
