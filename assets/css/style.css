@@ -17,7 +17,6 @@
     --font-size-paragraph: 1.125rem;
 }
 
-/* Example usage */
 body {
     background-color: var(--very-dark-blue-main-bg);
     color: var(--white);
@@ -31,7 +30,7 @@ body {
 
 .card {
     border-radius: 0.9375rem;
-    width: 21.875rem;
+    max-width: 21.875rem;
     padding: 1.5rem;
     display: flex;
     flex-direction: column;
